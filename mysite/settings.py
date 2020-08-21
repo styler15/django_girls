@@ -24,9 +24,9 @@ BASE_DIR = Path(__file__).resolve(strict=True).parent.parent
 SECRET_KEY = '8-p4@3r4o8=84%vef%peg3f4zxh36*y+4svy!=h_wfi1=e!l8)'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['127.0.0.1', 'styler15.pythonanywhere.com']
 
 
 # Application definition
